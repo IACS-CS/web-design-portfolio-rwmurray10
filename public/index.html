@@ -1,26 +1,89 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Example Student's Portfolio</title>
-    <link rel="stylesheet" href="./style.css" />
+    <title>Ryan Murray's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <main>
-      <section class="hero">
-        <h1>Example Student's Portfolio</h1>
-      </section>     
 
-      <section class="info" id="about-me">
-        <h2>About Me</h2>
-        <div class="about-me">
-          <h2>About Me</h2>
-        </div>
-      </section>
-      <section class="sample-work" id="cyoa">
-        <h2>My Choose-Your-Own Adventure Project</h2>
-        <p>For example a project could go here...</p>
-      </section>
-    </main>
+  <body>
+    <nav id="nav">
+      <ul class="container">
+        <li><a href="adventure/adventure.html">My Adventure Project</a></li>
+        <li><a href="zen_garden/zen_garden.html">Zen Garden Project</a></li>
+        <li><a href="imitation/imitation_project.html">Imitation Project</a></li>
+        <li><button id="myBtn">Contact</button></li>
+      </ul>
+    </nav>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p> Please enter your email address to sign up for Ryan's Weekly Soccer Tips </p>
+
+        <form>
+          <label for="femail">Email Address:</label>
+          <input type="text" id="femail" name="femail" /><br /><br />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+
+    <!-- About ME -->
+    <article id="about" class="wrapper style1">
+            <header>
+              <h1><em><strong>Welcome to Ryan Murray's Portfolio</h1></em></strong>
+            </header>
+            <span class="image fit"><img src="soccer.png" alt="" /></span>
+            <h1>About ME</h1>
+            <p>My name is Ryan Murray. I am currently a Senior at Innovation Academy Charter School (IACS). 
+              My passion is soccer, and I played on the Varisty soccer team for all 4 years. 
+              My Senior year I was elected as one of the Captains on the team. 
+              After I graduate from IACS in June, I plan to attend college where I hope to merge my passion for soccer and soccer statistics into a gainful career within sports media.</p>
+
+              <br><p>One of my favorite soccer plays is to take corner kicks for the team. Below is a video of me taking a corner kick during our Senior night game against Lowell Catholic High School.</p></br>
+
+                <video width="640" height="480" controls>
+              <source src="soccer_vid.MOV" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+
+              
+              <br><p>Although this corner kick did not result in a goal, we did win the game 1-0 when I scored a goal during the first half.</p></br>
+            <img src="soccer2.jpg" alt="" width="500"/>
+            <img src="soccer3.jpg" alt="" width="500"/>
+
+            <p>The pictures above show me scoring the goal, and then celebrating afterwards with my teammate Daniel. I'm #26.</p>
+            </article>
+
+    <!-- Work -->
+    <article id="work" class="wrapper style2">
+      <h1> Key Projects </h1>
+        <header>
+          <h2><b><a href="adventure/adventure.html">My Adventure Project</a></b></h2>
+        </header>
+        <p>
+          This was my first project during this semester for Web Design.
+          I chose to give a history of my soccer career since I started playing at age 6.
+       </p>
+
+        <header>
+          <h2><b><a href="zen_garden/zen_garden.html">Zen Garden Project</a></b></h2>
+        </header>
+        <p>
+          Zen Garden was a project asking to introduce CSS to this Web Design class.
+          HTML was given to us, and we needed to change the looks of the webpage using CSS to make it more personalized and a more beautiful design.
+       </p>
+
+       <header>
+          <h2><b><a href="imitation/imitation_project.html">Imitation Project</a></b></h2>
+        </header>
+        <p>
+          This Imitation Project was to show the creativity of using CSS to imitate the design of a Fruit Loops box. 
+       </p>
+    </article>
+
+    <script src="main.js"></script>
   </body>
-  <script src="main.js"></script>
 </html>

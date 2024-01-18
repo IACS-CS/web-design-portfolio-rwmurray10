@@ -1,0 +1,50 @@
+/* basic elements */
+html {
+  margin: 0;
+  padding: 0;
+  }
+
+body {
+  font: 90% papyrus, sans-serif;
+  line-height: 1.88889;
+  color: #610000; 
+  background: #d2e5c8 url(https://www.mid-americasportsconstruction.com/blog/wp-content/uploads/2018/03/soccer-field.jpg) no-repeat 96% 95%; 
+  background-size: 350px;
+  margin: 0; 
+  padding: 0;
+  border: solid #2e6038;
+  border-width: thick;
+  }
+
+.page-wrapper { 
+  padding: 0 175px 0 10px;  
+  margin: 0; 
+  position: relative;
+  }
+
+.sidebar {
+  margin-left: 600px; 
+  position: absolute; 
+  top: 0; 
+  right: 0;
+  }
+
+.sidebar .wrapper { 
+  font: 15px time, sans-serif; 
+  color: #ffffff;
+  background-color: #2d766e;
+  border: solid #561a1a;
+  border-width: thin;
+}
+
+a:hover {
+  background-color: #00ff2a;
+}
+
+.sidebar li a:link {
+  color: #fafafa;
+  }
+
+.sidebar li a:visited {
+  color: #f4e2e2;
+  }

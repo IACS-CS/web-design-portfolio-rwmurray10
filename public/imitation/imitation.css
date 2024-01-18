@@ -1,0 +1,51 @@
+main {
+  /* Fix the size of your design before you do anything else */
+  width: 569px;
+  height: 940px;
+  background-color:#EC1D37;
+  padding: 0px;
+}
+.familysize {
+  width: 569px;
+  height: 86px;
+  background-color: #FEF102;
+  color: #F8252E;
+  font-size: 70px;
+  font-weight: 900;
+  text-align: center;
+  font-family: 'Vina Sans';
+}
+.kelloggs {
+  color: #720429;
+  font-size: 30px;
+  padding-left: 141px;
+  padding-top: 30px;
+  font-family: "Lucida Handwriting", cursive;
+  text-shadow:  0 3px #FFF5F8, 0 0 5px #FFF5F8
+}
+
+.fruitloops {
+  color: #ffffff;
+  font-size: 90px;
+  text-align: center;
+  font-weight: bold;
+  transform-origin: 0 0;
+  transform: rotate(-5deg);
+  padding: 0x;
+}
+
+.birdandbowl
+{
+  text-align: center;
+}
+
+.naturalflavors
+{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  display:block;
+  padding-left: 450px;
+  text-wrap: wrap;
+  inline-size: 50px;
+}

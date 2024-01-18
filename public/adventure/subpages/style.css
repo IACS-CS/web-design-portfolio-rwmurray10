@@ -1,0 +1,15 @@
+body {
+  width: 450px;
+  margin: auto;
+  background-color: #1a5700;
+  color: #f0fff1;
+}
+
+a {
+  color: #b3b3ff;
+}
+a:visited {
+  color: #d9a4fd;
+}
+
+
